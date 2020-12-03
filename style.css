@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    display: flex;
+
+}
+
+.container {
+    width: 350px;
+    height: 550px;
+    margin-left: 40%;
+    margin-top: auto;
+    background-color: white;
+
+}
+
+#icontop {
+        display: block;
+        font-size: 100px;
+}
+
+
+#iconbot {
+        display: block;
+        font-size: 100px;
+}
+
+#numb {
+
+    display: block;
+    font-size: 150px;
+}
