@@ -1,31 +1,63 @@
 body {
-    background-color: black;
+    background-color: rgb(36, 53, 36);
     display: flex;
+    background-image: "https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg";
 
 }
 
 .container {
-    width: 350px;
-    height: 550px;
+    width: 950px;
+    height: 1250px;
     margin-left: 40%;
-    margin-top: auto;
-    background-color: white;
+    margin-top: 10%;
+    background: rgb(31,47,253);
+    background: linear-gradient(90deg, rgba(31,47,253,1) 35%, rgba(252,176,69,1) 100%); 
+    font-family: 'Bangers', cursive;
+    display: flex;
+    box-shadow: 10px 10px 10px 4px;
+    border-radius: 10px;
+
 
 }
 
 #icontop {
-        display: block;
-        font-size: 100px;
+     
+        font-size: 300px;
+        margin-top: 0px;
+        padding: 0px 0px 0px 0px;
+        position: absolute;
+        
+        
+        
+        
 }
 
 
 #iconbot {
-        display: block;
-        font-size: 100px;
+        font-size: 300px;
+        margin-top: 15%;
+        margin-left: 12.5%;
+        position: absolute
+
 }
+
+      
 
 #numb {
 
-    display: block;
-    font-size: 150px;
+    position: absolute;
+    font-size: 400px;
+    margin-left: 7%;
+    margin-top: 7%;
+   
+}
+
+
+.hero {
+        position: absolute;
+        display: flex;
+        z-index: -40;
+        height: 100%;
+        margin-right: 500px;
+        width: 100%;
 }
